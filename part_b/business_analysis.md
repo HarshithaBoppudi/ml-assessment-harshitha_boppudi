@@ -1,4 +1,5 @@
 **B1. Problem Formulation**
+
 **(a) Machine Learning Problem Formulation**
 
 The problem can be formulated as a supervised regression task.
@@ -28,8 +29,9 @@ Or cluster stores by similarity (location type, demographics, competition) and t
 This balances scalability with local responsiveness.
 
 
-**B2. Data and EDA Strategy 
-(a) Data Integration**
+**B2. Data and EDA Strategy **
+
+**(a) Data Integration**
 The four tables (transactions, store attributes, promotion details, calendar) would be joined using store_id and transaction_date as keys.
 Grain of final dataset: One row = one store’s monthly aggregated performance under a given promotion.
 Aggregations:
